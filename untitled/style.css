@@ -184,19 +184,19 @@ width: 100%;
     padding: 10px 10%;
 }
 .project-kolom-4{
-    max-width: 600px; /* Maximaal 600px breed */
-    margin: 20px auto; /* Centreer de sectie */
-    text-align: left; /* Tekst uitlijnen naar links */
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
 }
 .project-kolom-4 img{
-    max-width: 800px; /* Maximaal 600px breed */
-    margin: 20px auto; /* Centreer de sectie */
-    text-align: left; /* Tekst uitlijnen naar links */
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
 }
 .wpl2 {
-    max-width: 600px; /* Maximaal 600px breed */
-    margin: 0 auto; /* Centreer de sectie */
-    text-align: left; /* Tekst uitlijnen naar links */
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .wpl2 img {
