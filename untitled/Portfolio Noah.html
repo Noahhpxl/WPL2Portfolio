@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Noah Jamieson</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <div class="col-12 col-lg-6">
+        <nav>
+            <ul>
+                <li><a href="portfolio noah.html">Home</a> </li>
+                <li><a href="opdrachten.html">Opdrachten WPL1</a> </li>
+                <li><a href="eindreflectie.html">Eindreflectie WPL1</a> </li>
+                <li><a href="projecten.html">Projecten</a> </li>
+                <li><a href="eindreflectie2.html">WPL2</a> </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- uitleg over mezelf, skills,ervaring, etc. -->
+    <div id="Uitleg">
+
+        <div class="container">
+            <div class="row">
+                <div class="uitleg-kolom-1">
+                    <img src="fotos/foto.jpg">
+                </div>
+                <div class="uitleg-kolom-2">
+                    <h1 class="naam">Noah Jamieson </h1>
+                    <br>
+                    <p class="beschrijving">Hey! Ik ben Noah, een 23 jarige student Digitale Vormgeving aan de Hogeschool PXL in Hasselt. Neem gerust een kijkje in mijn Portfolio! Hopelijk zien jullie er iets leuks tussen. Je kan altijd contact met mij opnemen via de contact gegevens in mijn CV.</p>
+                    <br>
+                    <!-- Tab titels voor onderverdeling -->
+                    <!-- https://www.w3schools.com/w3css/w3css_tabulators.asp voor info over onclick en opentab en 3 teksten naar elkaar met onclick-->
+                    <!-- https://www.w3schools.com/tags/tag_ul.asp -->
+                    <div class="tab-titels">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('ervaring')">Ervaring</p>
+                        <p class="tab-links" onclick="opentab('opleiding')">Opleiding</p>
+
+                    </div>
+                    <!-- Skillsets. -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX Design</span><br>Figma Designs / Adobe XD</li>
+                            <li><span>Illustrator</span><br>Logo & Visuals</li>
+                            <li><span>Photoshop</span><br>Editing & Customizing</li>
+                        </ul>
+                    </div>
+                    <!-- Werkervaring -->
+                    <div class="tab-contents" id="ervaring">
+                        <ul>
+                            <li><span>2023 - heden Protest</span><br>Sales Advisor & Customer Support</li>
+                            <li><span>2022-2023 Kenzo</span><br>Client Advisor & Stock administrator</li>
+                            <li><span>2020-2022 The North Face</span><br>Supervisor & Stock administrator</li>
+                        </ul>
+                    </div>
+                    <!-- Opleidingen -->
+                    <div class="tab-contents" id="opleiding">
+                        <ul>
+                            <li><span>2023 - heden Hogeschool PXL</span><br>Digitale Vormgeving</li>
+                            <li><span>2018-2021 Hogeschool PXL</span><br>Programmeren & Netwerken</li>
+                            <li><span>2016-2021 Regina Mundi</span><br>Informatica Beheer</li>
+                        </ul>
+                    </div>
+                    <br>
+                    <a href="files/cv.pdf" download="cv.pdf" class="Eindref">
+                        Download CV
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
+<!--- Script voor tekst laten zien met klik  verwijst naar main.js folder--->
+<script src="main.js"></script>
+</body>
+</html>
+
+<!-- /* https://getbootstrap.com/docs/4.0/layout/grid/ */
+/* https://www.youtube.com/watch?v=-WPrj8OxXlU */
+/* https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_col-s */
+
+
+
